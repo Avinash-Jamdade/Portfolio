@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #000;
+    font-family: monospace;
+}
+nav{
+    height: 80px;
+    background-color: black;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius:5px ;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #f1eeeb;
+    transition: 0.5s ease;
+    
+}
+nav ul li .active{
+    background-color: #f0eae6;
+}
+h2{
+    color: #f0eae6;
+   
+}
+p{
+    color: #fff;
+}
+.btn-container a{
+    border:.1rem solid  #262525 ;
+    font-size:1.1rem ;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease ;
+    box-shadow: 0 4px 5px white ;
+
+}
+#Container1{
+    height: 300px;
+    background-color:#000;
+    display: inline-block;
+    flex-wrap: wrap;
+    border: #262525;
+    font-family: cursive;
+    font-size: 30px;
+}
+.img_code{
+    float: right;
+    padding: 40px;
+    margin: 20px;
+    max-width: 600px;
+    margin-right: 20px;
+ }
+ #Container2{
+    height: 700px;
+    background-color: #000;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 25px;
+    
+}
+.ol li{
+    text-align: center;
+}
+.img_code1{
+    float: left;
+    width: 100%;
+    padding: 40px;
+    margin: 20px;
+    max-width: 600px;
+    margin-left: 10px;
+ }
+ .img_code1:hover{
+     cursor: pointer;
+ }
+.Container h2{
+    text-align: center;
+    color:black ;
+}
+#Container3{
+    height: 600px;
+    background-color: #000;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 30px;
+}
+.img_code2{
+    float: right;
+    width: 70%;
+    padding: 40px;
+    margin: 20px;
+    max-width: 600px;
+    margin-right: 20px;
+    
+ }
+ .img_code2:hover{
+     cursor: pointer;
+     transform:rotate();
+ }
+#Container4{
+    height: 600px;
+    background-color:#000;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 30px;
+}
+.img_code3{
+    float: left;
+    width: 80%;
+    padding: 40px;
+    margin: 20px;
+    max-width: 500px;
+    margin-left: 20px;
+ }
+ .img_code3:hover{
+     cursor: pointer;
+     transform:rotate();
+ }
+#Container5{
+    height: 500px;
+    background-color:#000;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 30px;
+}
+.text-box1{
+    color: white;
+}
+.text-box h2{
+    color:white ;
+}
+.text-box p{
+    font-size: 30px;
+}
+
