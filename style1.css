@@ -53,6 +53,11 @@ p{
     box-shadow: 0 4px 5px white ;
 
 }
+#contianer h2{
+    margin: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
 #Container1{
     height: 300px;
     background-color:#000;
@@ -64,13 +69,13 @@ p{
 }
 .img_code{
     float: right;
-    padding: 40px;
-    margin: 20px;
+    padding: 20px;
+    margin: 10px;
     max-width: 600px;
     margin-right: 20px;
  }
  #Container2{
-    height: 700px;
+    height: 400px;
     background-color: #000;
     display: inline-block;
     font-family: cursive;
@@ -83,30 +88,39 @@ p{
 .img_code1{
     float: left;
     width: 100%;
-    padding: 40px;
-    margin: 20px;
-    max-width: 600px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 500px;
     margin-left: 10px;
  }
  .img_code1:hover{
      cursor: pointer;
  }
-.Container h2{
+#Container2 h2{
     text-align: center;
-    color:black ;
+    color:white ;
+    margin: 10px;
+}
+.Container p{
+    padding: 10px;
 }
 #Container3{
-    height: 600px;
+    height: 500px;
     background-color: #000;
     display: inline-block;
     font-family: cursive;
     font-size: 30px;
 }
+#Container3 p li {
+    color:white;
+    text-align: center;
+    margin: 10px;
+
+}
+
 .img_code2{
     float: right;
     width: 70%;
-    padding: 40px;
-    margin: 20px;
     max-width: 600px;
     margin-right: 20px;
     
@@ -125,8 +139,6 @@ p{
 .img_code3{
     float: left;
     width: 80%;
-    padding: 40px;
-    margin: 20px;
     max-width: 500px;
     margin-left: 20px;
  }
